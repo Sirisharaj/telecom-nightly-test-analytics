@@ -1,0 +1,43 @@
+run_date,test_case,technology,verdict,failure_reason,duration_sec,bench_id
+2026-10-30,NR_attach_basic,5G NR, pass ,,85,SIM-BENCH-01
+2026-10-30,  NR_PDU_session_est ,5G NR,PASS,,92,SIM-BENCH-01
+2026-10-30,NR_handover_Xn_intra,5G NR,PASS,,110,SIM-BENCH-01
+2026-10-30,NR_handover_N2_inter,5G NR,Fail,AMF N2 path switch timeout,125,SIM-BENCH-01
+2026-10-30,NR_gNB_beam_failure_rec,5G NR,FAIL,RACH contention resolution failed,98,SIM-BENCH-02
+2026-10-30,NR_RRC_inactive_resume,5G NR,PASS,,64,SIM-BENCH-02
+2026-10-30,NR_NSA_EN_DC_bearer_split,5G NR,PASS,,140,SIM-BENCH-02
+2026-10-30,NR_VoNR_IMS_registration,5G NR ,PASS,,78,SIM-BENCH-02
+2026-10-30,NR_MIMO_4x4_downlink_tput,5G NR,PASS,,180,SIM-BENCH-01
+2026-10-30,NR_URLLC_low_latency_ping,5G NR,PASS,,55,SIM-BENCH-01
+2026-10-30,NR_network_slicing_SST1,5G NR,PASS,,105,SIM-BENCH-02
+2026-10-30,NR_paging_discontinuous_rx,5G NR,PASS,,70,SIM-BENCH-02
+2026-10-30,NR_security_NAS_ciphering,5G NR,PASS,,60,SIM-BENCH-01
+2026-10-30,NR_carrier_agg_2CC_DL,5G NR,SKIPPED,Secondary cell RF unit calibrating,0,SIM-BENCH-01
+2026-10-30,NR_SRS_switching_uplink,5G NR,PASS,,88,SIM-BENCH-02
+2026-10-30,NR_EPS_fallback_to_LTE,5G NR,PASS,,115,SIM-BENCH-02
+2026-10-30,LTE_attach_default_bearer,LTE,PASS,,72,SIM-BENCH-03
+2026-10-30,LTE_dedicated_bearer_QoS,LTE,PASS,,84,SIM-BENCH-03
+2026-10-30,LTE_S1_handover_prep,LTE,FAIL,S1AP handover resource allocation NACK,95,SIM-BENCH-03
+2026-10-30,LTE_X2_handover_execution,LTE,PASS,,89,SIM-BENCH-03
+2026-10-30,LTE_TAU_periodic_update,LTE,PASS,,52,SIM-BENCH-03
+2026-10-30,LTE_VoLTE_SIP_invite,LTE,PASS,,68,SIM-BENCH-03
+2026-10-30,LTE_CSFB_circuit_switch,LTE,SKIPPED,3G legacy emulator offline,0,SIM-BENCH-03
+2026-10-30,LTE_CA_3CC_downlink,LTE,PASS,,145,SIM-BENCH-03
+2026-10-30,LTE_eICIC_abs_subframe,LTE,PASS,,112,SIM-BENCH-03
+2026-10-30,LTE_RRC_reestablishment,LTE,PASS,,76,SIM-BENCH-03
+2026-10-30,LTE_PDCP_robust_header_comp,LTE,PASS,,63,SIM-BENCH-03
+2026-10-30,LTE_DRX_short_long_cycle,LTE,PASS,,81,SIM-BENCH-03
+2026-10-30,LTE_MAC_HARQ_retransmission,LTE,PASS,,58,SIM-BENCH-03
+2026-10-30,LTE_security_AS_SMC,LTE,PASS,,49,SIM-BENCH-03
+2026-10-30,NBIoT_attach_CP_CIoT,NB-IoT,PASS,,130,SIM-BENCH-04
+2026-10-30,NBIoT_PSM_deep_sleep_wake,NB-IoT,PASS,,210,SIM-BENCH-04
+2026-10-30,NBIoT_eDRX_paging_window,NB-IoT,PASS,,175,SIM-BENCH-04
+2026-10-30,NBIoT_EDT_early_data_tx,NB-IoT,PASS,,95,SIM-BENCH-04
+2026-10-30,NBIoT_NPRACH_coverage_CE1,NB-IoT,PASS,,160,SIM-BENCH-04
+2026-10-30,NBIoT_NPRACH_coverage_CE2,NB-IoT,FAIL,NPDCCH blind decoding timeout at -124dBm,190,SIM-BENCH-04
+2026-10-30,NBIoT_NON_IP_data_delivery,NB-IoT,BLOCKED,SCEF gateway certificate expired,0,SIM-BENCH-04
+2026-10-30,NBIoT_SMS_over_NAS_transfer,NB-IoT,PASS,,88,SIM-BENCH-04
+2026-10-30,NBIoT_RRC_resume_UP_opt,NB-IoT,PASS,,104,SIM-BENCH-04
+2026-10-30,NBIoT_multi_tone_NPUSCH,NB-IoT,PASS,,142,SIM-BENCH-04
+2026-10-30,NR_handover_Xn_intra,5G NR,PASS,,110,SIM-BENCH-01
+2026-10-30,NR_network_slicing_SST1,5G NR,PASS,,105,SIM-BENCH-02
